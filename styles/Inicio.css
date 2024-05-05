@@ -1,0 +1,47 @@
+.Inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   
+
+
+    
+    
+
+
+}
+.foto -perfil{
+    align-items: self-end;
+}
+.foto-perfil{
+    height: 50px;
+
+}
+
+.saludo{
+
+}
+
+.botones{
+
+}
+
+@media (min-width:1024px){
+
+    .Inicio{
+
+    }
+    
+    .foto-perfil{
+    
+    }
+    
+    .saludo{
+    
+    }
+    
+    .botones{
+    
+    }
+
+
+}
