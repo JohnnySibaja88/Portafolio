@@ -1,0 +1,35 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+        height: 190px;
+        width: 100%;
+    }
+
+.titulo{
+    background-color: chartreuse;
+    width: 100%;
+    
+    align-self: flex-start;
+    }
+
+.listado-skills{
+    background-color: crimson;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 25px;
+}
+
+.logo-skill{
+    height: 100px;
+    width: 100px;
+}
+.nombre-skill{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center; 
+    font-weight: bold;
+    font-size: large;
+
+}
