@@ -1,23 +1,31 @@
 .habilidades{
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     background-color: chocolate;
-        height: 190px;
-        width: 100%;
-    }
-
-.titulo{
-    background-color: chartreuse;
+    margin: 10px;
     width: 100%;
-    
-    align-self: flex-start;
-    }
+    gap: 10px; 
+
+        }
+        .tituloCentrado{
+            background-color: black;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+         
+          
+
+        }
+
 
 .listado-skills{
     background-color: crimson;
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  width: 100%;
     gap: 25px;
 }
 

@@ -1,0 +1,8 @@
+.aboutme{
+    background-color: aqua;
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
