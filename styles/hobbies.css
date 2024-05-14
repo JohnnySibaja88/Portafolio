@@ -1,0 +1,16 @@
+.pasatiempos{
+    background-color: cadetblue;
+    display: flex;
+    flex-flow: column   wrap;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+
+}
+
+.hobbies__line{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
