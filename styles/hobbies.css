@@ -5,12 +5,33 @@
     align-items: center;
     margin: 10px;
     width: 100%;
+    gap: 15px;
 
 }
 
 .hobbies__line{
+    background-color: darkcyan;
+    width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap ;
+    align-content: space-between;
+    gap: 10px;
 
+}
+
+.hobbies__box{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+
+}
+
+
+.giftIcoin{
+    height: 75px !important;
+    width: 75px !important;
 }
 

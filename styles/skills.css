@@ -8,7 +8,6 @@
 
         }
         .tituloCentrado{
-            background-color: black;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -22,18 +21,20 @@
 
 .listado-skills{
     background-color: crimson;
+    margin: 0 20px ;
     display: flex;
   flex-flow: wrap row;
   justify-content: space-between;
   width: 100%;
-    gap: 25px;
+    gap: 15px;
 }
 
 .logo-skill{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
 .nombre-skill{
+    background-color: blue;
     margin-top: 1rem;
     display: flex;
     align-items: center; 
