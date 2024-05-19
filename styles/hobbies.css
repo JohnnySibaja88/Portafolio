@@ -1,5 +1,5 @@
 .pasatiempos{
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
     flex-flow: column   wrap;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 
 .hobbies__line{
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     width: 100%;
     display: flex;
    flex-wrap: wrap ;
@@ -21,7 +21,7 @@
 }
 
 .hobbies__box{
-    background-color: black;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1,);
     margin 10px
